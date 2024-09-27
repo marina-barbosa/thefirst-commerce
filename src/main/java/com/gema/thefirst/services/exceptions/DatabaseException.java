@@ -1,0 +1,7 @@
+package com.gema.thefirst.services.exceptions;
+
+public class DatabaseException extends RuntimeException {
+  public DatabaseException(String msg) {
+    super(msg);
+  }
+}
